@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+:root{
+    --padding-container:100px 0;
+    --color-title: #001A49;
+}
+
 
 body{
     font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #000;
+    padding: var(--padding-container);
 }
