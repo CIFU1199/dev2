@@ -272,11 +272,6 @@ body{
     gap:1em;
     align-items: center;
 }
-.testimony_body--show{
-    pointer-events: unset;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
-}
 
 .testimony-body{
     display: grid;
@@ -286,8 +281,14 @@ body{
     gap:2em;
     grid-column: 2/3;
     grid-row: 1/2;
-    opacity: -1;
+    opacity: 0;
     pointer-events: none;
+}
+
+.testimony_body--show{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
 }
 
 .testimony-img{

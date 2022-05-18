@@ -12,7 +12,7 @@
     })
 
     const changePosition = (add) =>{
-        const currentTestimony = document.querySelector('testimony-body--show').dataset.id;
+        const currentTestimony = document.querySelector('testimony_body--show').dataset.id;
     }
 
 })();
