@@ -272,10 +272,10 @@ body{
     gap:1em;
     align-items: center;
 }
-.testimony-body--show{
+.testimony_body--show{
     pointer-events: unset;
     opacity: 1;
-    transition:opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
 }
 
 .testimony-body{
@@ -286,7 +286,7 @@ body{
     gap:2em;
     grid-column: 2/3;
     grid-row: 1/2;
-    opacity: 0;
+    opacity: -1;
     pointer-events: none;
 }
 
