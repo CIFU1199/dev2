@@ -12,8 +12,7 @@
     })
 
     const changePosition = (add) =>{
-        const currentTestimony = document.querySelector('testimony_body--show').dataset.id;
-
+        const currentTestimony = document.querySelector('.testimony_body--show').dataset.id;
         value = Number(currentTestimony);
         value+= add;
 

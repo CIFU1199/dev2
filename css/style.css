@@ -285,6 +285,8 @@ body{
     pointer-events: none;
 }
 
+
+/*Animacion css*/
 .testimony_body--show{
     pointer-events: unset;
     opacity: 1;
@@ -312,4 +314,66 @@ body{
 .testimony-arrow{
     width: 90%;
     cursor: pointer;
+}
+
+/*Questions*/
+.question{
+    text-align: center;
+}
+.question-container{
+    display: grid;
+    gap: 2em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.question-padding{
+    padding: 0;
+    transition: padding .3s;
+    border:1px solid #5454D4;
+    border-radius: 6px;
+}
+
+.question-padding--add{
+    padding-bottom: 30px;
+}
+.question-answer{
+    padding: 0 30px 0;
+    overflow: hidden;
+}
+
+.question-title{
+    display: flex;
+    padding: 30px 0 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--color-title);
+    justify-content: space-between;
+}
+
+.question-arrow{
+    border-radius: 50%;
+    background-color:var(--color-title);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    margin-left: 10px;
+    transition: transform .3s;    
+}
+
+.question-arrow--rotate{
+    transform: rotate(180deg);
+}
+
+
+.questions-show{
+    text-align: left;
+    height: 0;
+    transition: height .3s;
+}
+
+.question-img{
+    display: block;
 }
